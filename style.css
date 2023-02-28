@@ -1,9 +1,58 @@
-h1{
-    text-align: center;
-    font-family: 'Times New Roman';
-    font-size: 40px;
-    color: rgb(121, 106, 89);
+.name {
+  text-align: left;
+  font-family: "Times New Roman";
+  font-size: 40px;
+  color: rgb(87, 126, 209);
+  margin-bottom: 5px;
+  margin-left: 25px;
 }
-body{
-    background-color:aliceblue;
+
+/* tf = text font class for most text in index html*/
+.tf {
+  font-family: "Times New Roman";
+}
+
+body {
+  background-color: #f8f8f8;
+}
+.heading {
+  color: rgb(87, 126, 209);
+  margin: 100px 0 0 0;
+}
+
+/* .content is for applying styles to entire section */
+.content {
+  margin: 0 5px 0 5px;
+  padding: 0;
+}
+.flcs-headers {
+  font-family: "Times New Roman";
+  color: rgb(87, 126, 209);
+  font-weight: bolder;
+}
+.initials {
+  text-align: left;
+  font-family: "Times New Roman";
+  font-size: 80px;
+  color: rgb(69, 105, 173);
+  margin-bottom: 5px;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+body {
+  display: flex;
+}
+
+/* first left column styles = flcs */
+.flcs {
+  background-color: rgb(149, 183, 212);
+  padding: 0 0 0 0;
+  margin: 0 50px 0 0;
+  width: 300px;
+  height:auto;
+}
+
+.paragraph-spacing {
+  padding-bottom: 10px;
 }
