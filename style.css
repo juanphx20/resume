@@ -77,6 +77,8 @@ body {
 
 .resume-page {
   display: flex;
+  margin: 0 381px 0 381px;
+  background-color: #f8f8f8;
 }
 
 .section-2 {
@@ -108,7 +110,10 @@ body {
   line-height: 1.5em;
   height: 800px;
 }
-.links{
-text-decoration: none;
-color: black;
+.links {
+  text-decoration: none;
+  color: black;
+}
+* {
+  font-family: "Times New Roman";
 }
