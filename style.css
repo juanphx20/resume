@@ -77,13 +77,11 @@ body {
 
 .resume-page {
   display: flex;
- 
-
 }
 
 .section-2 {
   width: 450px;
-  height:800px;
+  height: 800px;
 }
 
 .section-1 {
@@ -100,14 +98,17 @@ body {
   padding-left: 5px;
 }
 
-.section-3-header{
+.section-3-header {
   margin-top: 214px;
   border-bottom: solid rgb(87, 126, 209) 3px;
   color: rgb(87, 126, 209);
-
 }
-.section-3-div{
-  width:auto;
+.section-3-div {
+  width: auto;
   line-height: 1.5em;
   height: 800px;
+}
+.links{
+text-decoration: none;
+color: black;
 }
