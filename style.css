@@ -4,7 +4,7 @@
   font-size: 40px;
   color: rgb(87, 126, 209);
   margin-bottom: 5px;
-  margin-left: 25px;
+  margin-left: 8px;
 }
 
 /* tf = text font class for most text in index html*/
@@ -17,7 +17,7 @@ body {
 }
 .heading {
   color: rgb(87, 126, 209);
-  margin: 100px 0 0 0;
+  margin: 25px 0 0 0;
 }
 
 /* .content is for applying styles to entire section */
@@ -25,11 +25,17 @@ body {
   margin: 0 5px 0 5px;
   padding: 0;
 }
-.flcs-headers {
+.section-1-headers {
   font-family: "Times New Roman";
   color: rgb(87, 126, 209);
   font-weight: bolder;
 }
+/* styles for section 1 h2 */
+.s1hlines {
+  border-bottom: solid 3px rgb(87, 126, 209);
+  margin-right: 50px;
+}
+
 .initials {
   text-align: left;
   font-family: "Times New Roman";
@@ -42,17 +48,66 @@ body {
 
 body {
   display: flex;
+  margin: 0;
+  padding: 0;
 }
 
-/* first left column styles = flcs */
-.flcs {
-  background-color: rgb(149, 183, 212);
+/* first left column styles  */
+.section-1 {
+  background-color: #fce7ba;
   padding: 0 0 0 0;
   margin: 0 50px 0 0;
   width: 300px;
-  height:auto;
+  height: 800px;
 }
 
 .paragraph-spacing {
   padding-bottom: 10px;
+}
+/* right containter styles  */
+.right-cont-styles {
+  border-bottom: solid 3px rgb(87, 126, 209);
+}
+
+/* sub-headings-for-job-positions= shfjp */
+.shfjp {
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+.resume-page {
+  display: flex;
+ 
+
+}
+
+.section-2 {
+  width: 450px;
+  height:800px;
+}
+
+.section-1 {
+  padding-left: 5px;
+  margin: 0;
+}
+
+/* lnht = lineheight */
+.lnht {
+  line-height: 1.5;
+}
+
+.resume-summary {
+  padding-left: 5px;
+}
+
+.section-3-header{
+  margin-top: 214px;
+  border-bottom: solid rgb(87, 126, 209) 3px;
+  color: rgb(87, 126, 209);
+
+}
+.section-3-div{
+  width:auto;
+  line-height: 1.5em;
+  height: 800px;
 }
